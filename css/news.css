@@ -1,0 +1,133 @@
+.news .home-title {
+    text-align: center;
+}
+
+.news .home-title h2 a {
+    display: block;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0;
+    color: #222;
+    text-align: center;
+    border-bottom: 2px solid #fc7511;
+    padding-bottom: 12px;
+    margin-bottom: 14px;
+    position: relative;
+    text-decoration: none;
+}
+
+.news .home-title:hover h2 a {
+    color: #fc7511;
+    text-decoration: none;
+}
+
+.blog-item {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.blog-item .blog-item-thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-item .blog-items-c .blog-item-name {
+    font-size: 14px;
+}
+
+.blog-item-name {
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+    height: 35px;
+}
+
+.margin-top-10 {
+    margin-top: 10px !important;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 38px;
+    height: auto;
+    min-height: 38px;
+}
+
+.line-clamp {
+    position: relative;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.blog-item .blog-items-c .post-time {
+    padding: 3px 0;
+    font-size: 13px;
+    color: #999;
+}
+
+.blog-item .blog-items-c .blog-item-name a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+}
+
+.blog-item-summary {
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+.margin-bottom-5 {
+    margin-bottom: 5px !important;
+}
+
+.blog-item-name a {
+    text-decoration: none;
+    color: #222;
+}
+
+.blog-item-name:hover a {
+    color: #fc7511;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .blog-item .blog-item-thumbnail {
+        width: 210px;
+        float: left;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-item .blog-item-thumbnail {
+        width: 110px;
+    }
+}
+
+@media (max-width: 480px) {
+    .line-clamp {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 480px) {
+    .blog-item-summary {
+        display: none;
+    }
+}
+
+@media (max-width: 768) {
+    .blog-item .blog-items-c .blog-item-name {
+        margin-top: 0 !important;
+    }
+}

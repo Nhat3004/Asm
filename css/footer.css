@@ -1,0 +1,84 @@
+.footer .copyright {
+    background-color: #0f0f0f;
+    color: #888;
+    font-size: 13px;
+    padding: 10px;
+}
+
+footer .list-menu a {
+    color: #000;
+}
+
+.maucam {
+    color: black !important;
+    font-weight: 600;
+}
+
+.footer .site-footer .footer-widget h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+footer .site-footer h3,
+footer .site-footer h4 {
+    position: relative;
+    color: #000;
+    margin: 0;
+    padding: 13px 0;
+}
+
+.padding-top-25 {
+    padding-top: 25px !important;
+}
+
+.padding-bottom-10 {
+    padding-bottom: 10px !important;
+}
+
+.footer .site-footer .list-menu a:hover,
+.footer .site-footer .list-menu a:focus {
+    color: #fc7511;
+    text-decoration: none;
+}
+
+.left-info li a {
+    color: #fff;
+    padding: 0 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.left-info li a:hover {
+    color: #fdcb00;
+    text-decoration: none;
+}
+
+.left-info li {
+    display: inline-block;
+}
+
+.regg {
+    max-width: 100%;
+    background-color: #fc7511;
+    padding: 10px;
+}
+
+.regg h4 {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.regg a {
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.regg a:hover {
+    color: #fdcb00;
+    text-decoration: none;
+}

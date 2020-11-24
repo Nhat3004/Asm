@@ -1,0 +1,24 @@
+#navb {
+    max-width: 100%;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+nav .nav li a {
+    color: white;
+}
+
+nav .dropdown-menu li a {
+    color: black;
+}
+
+nav .nav li a:hover,
+nav .nav li a:focus {
+    background-color: #fc7511;
+}
+
+nav .nav .open>a,
+nav .nav .open>a:focus,
+nav .nav .open>a:hover {
+    background-color: #fc7511;
+}
